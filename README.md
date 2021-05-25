@@ -16,12 +16,13 @@ ACESSO AO SITE
 
 https://khogo1.herokuapp.com/
 
-LOGIN: sato
+Login: sato
 
-PASSWORD: 123
+Password: 123
 
 ACESSO AO MAPA
-LOGIN: Felipe
+
+Login: Felipe
 
 
 
