@@ -15,8 +15,11 @@ FUNCIONAMENTO DO SISTEMA
 ACESSO AO SITE
 
 https://khogo1.herokuapp.com/
-Login: sato
-Senha: 123
+LOGIN: sato
+PASSWORD: 123
+
+ACESSO AO MAPA
+LOGIN: Felipe
 
 
 
