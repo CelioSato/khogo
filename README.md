@@ -11,6 +11,12 @@ FUNCIONAMENTO DO SISTEMA
   Somente é possivel o cadastro no sistema por meio de uma chave liberada pelo administrador do sistema. Após a cadastro o usuário deve cadastrar seus dados pessoais, modelo, cor, placa de um veiculo e o número serial do aparelho a ser rastreado. 
 
   A página que lista a localização de um veiculo é liberada para acesso público, porém, esta página somente irá exibir qualquer localização quando o botão de pânico for pressionado, enviando ao telegram (Registrado pelo cliente) endereço da página e um login único (este login é o canal que o front-end assina para iniciar uma comunicação Websocket) que deve ser utilizado para acompanhar o rastreamento do veículo. O aparelho rastreador baseado em um Esp8266 com modulo GPS, faz uma conexão com a internet através de uma conexão WiFi (Celular),  quando iniciado o envio da localização (latitude e longitude) do veículo ao Back-end, este grava em base de dados MYSQL, e envia aos assinantes do canal (a assinatura desta canal é a mensagem recebida no telegram) as coordenadas do veiculo, latitude e longitude que são traduzidas pela API do google maps e mostrada ao usuário, também é possivel ver o modelo, cor, placa do veículo e um numero de telefone para contato.
+  
+ACESSO AO SITE
+
+https://khogo1.herokuapp.com/
+Login: sato
+Senha: 123
 
 
 
